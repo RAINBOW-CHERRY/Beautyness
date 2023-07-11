@@ -1,13 +1,29 @@
-.main{
+.main {
 	font-family: 'Manrope', sans-serif;
+	font-weight: 400;
 }
-.main img{
+
+.main h1,
+.main h2,
+.main h3 {
+	margin: 0;
+}
+
+.main p {
+	margin: 0;
+}
+
+.main img {
 	display: block;
+	border: 0;
 }
-.main a{
+
+.main a {
 	text-decoration: none;
 }
-.header-container{
+
+/* Шапка */
+.header-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -16,69 +32,200 @@
 	margin: auto;
 	padding: 23px 0;
 }
-.header-container__left{
+
+.header-container__left {
 	display: flex;
 	align-items: center;
 }
-.logo{
+
+.logo {
 	margin-right: 32px;
 }
-.phone-number__phone{
+
+.phone-number__phone {
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 24px;
 	color: rgba(20, 20, 20, 1);
 }
-.phone-number__phone--before-phone::before{
+
+.phone-number__phone--before-phone::before {
 	content: url(../img/icon-phone.svg);
 	position: relative;
 	right: 10px;
 	top: 7px;
 }
-.header-container__right{
+
+.header-container__right {
 	display: flex;
 	align-items: center;
 }
-.navigation{
+
+.navigation {
 	margin-right: 30px;
 }
-.navigation__link{
+
+.navigation__link {
 	font-size: 17px;
-	font-weight: 400;
 	line-height: 25px;
 	transition: color 0.3s;
 	color: rgba(20, 20, 20, 1);
 }
-.navigation__link:hover{
+
+.navigation__link:hover {
 	color: rgba(92, 134, 146, 1);
 }
-.navigation__link--right{
+
+.navigation__link--right {
 	margin-right: 38px;
 }
-.navigation__link--right:nth-child(3){
+
+.navigation__link--right:nth-child(3) {
 	margin-right: 50px;
 }
-.contacts{
+
+.contacts {
 	display: flex;
 	margin-right: 30px;
 }
-.contacts__img--right{
+
+.contacts__img--right {
 	margin-right: 20px;
 }
-.btn__grey{
+
+.btn {
+	display: inline-block;
 	padding: 19px 32px;
 	border: 2px solid;
-	border-color: #5C8692;
-	background-color: #5C8692;
-	color: rgba(255, 255, 255, 1);
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 1.4px;
 	text-transform: uppercase;
 }
-.btn__grey::before{
+
+.btn__grey {
+	border-color: #5C8692;
+	background-color: #5C8692;
+	color: rgba(255, 255, 255, 1);
+}
+
+.btn__grey--before::before {
 	content: url(../img/reservation.svg);
 	position: relative;
 	right: 10px;
 	top: 3px;
 }
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* Главная */
+.welcome {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: rgba(235, 243, 245, 1);
+}
+
+.welcome__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.greetings {
+	display: flex;
+}
+
+.greetings__img {
+	margin-right: 6px;
+}
+
+.greetings__text {
+	margin-bottom: 5px;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: rgba(92, 134, 146, 1);
+}
+
+
+.welcome .welcome__title {
+	margin-bottom: 16px;
+	max-width: 400px;
+	font-family: Playfair Display;
+	font-size: 55px;
+	line-height: 71px;
+	letter-spacing: 0.66px;
+	color: rgba(20, 20, 20, 1);
+}
+
+.welcome .welcome-description {
+	margin-bottom: 26px;
+	max-width: 480px;
+	font-size: 19px;
+	line-height: 30px;
+	color: rgba(85, 85, 85, 1);
+}
+
+.wrapper-image {
+	box-sizing: border-box;
+	position: relative;
+	width: 592px;
+	height: 645px;
+	background-color: rgba(235, 243, 245, 1);
+	border: 10px solid rgba(92, 134, 146, 1);
+}
+
+.welcome-right__img {
+	position: absolute;
+	z-index: 1;
+	left: -40px;
+	top: 50px;
+	box-shadow: 1px 0px 18px 0px rgba(0, 0, 0, 0.20);
+}
+
+.welcome-right__icon {
+	position: absolute;
+	left: 555px;
+	top: 535px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* Об услугах */
+.about-services {
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+
+.about-services__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.item{
+	width: 380px;
+}
+.services-item__img{
+	margin-bottom: 16px;
+}
+.item .services-item__title{
+	margin-bottom: 13px;
+	font-family: Playfair Display;
+	font-size: 26px;
+	line-height: 36px;
+	letter-spacing: 0.3px;
+	color: rgba(20, 20, 20, 1);
+}
+.item .services-item__description{
+	margin-bottom: 17px;
+	font-size: 18px;
+	line-height: 30.6px;
+	letter-spacing: 0.36px;
+	color: rgba(85, 85, 85, 1);
+}
+.btn__light{
+	border-color: rgba(92, 134, 146, 1);
+	color: rgba(20, 20, 20, 1);
+}
+
