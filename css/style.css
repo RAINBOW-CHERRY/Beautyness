@@ -369,7 +369,7 @@
 	border-bottom: 1px solid rgba(19, 65, 52, 1);
 }
 
-.price__service-item:nth-child(4) {
+.price__service-item--bottom{
 	margin-bottom: 22px;
 }
 
