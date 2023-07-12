@@ -521,3 +521,48 @@
 	letter-spacing: 0.42px;
 	color: rgba(255, 255, 255, 1);
 }
+
+/* Преимущества */
+.benefits{
+	padding-top: 100px;
+	padding-bottom: 110px;
+	background-color: rgba(255, 255, 255, 1);
+}
+.benefits__text{
+	display: block;
+	text-align: center;
+	margin-bottom: 4px;
+}
+.benefits .benefits__title{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.benefits-wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.benefits-item{
+	width: 373px;
+}
+.benefits-item:nth-child(-n+3){
+	margin-bottom: 50px;
+}
+.benefits-item__icon{
+	margin-bottom: 14px;
+}
+
+.benefits-item__title{
+	margin-bottom: 11px;
+	font-family: Playfair Display;
+	font-size: 26px;
+	line-height: 36.4px;
+	letter-spacing: 0.31px;
+	color: rgba(20, 20, 20, 1);
+}
+
+.benefits-item__description{
+	font-size: 18px;
+	line-height: 27px;
+	color: rgba(85, 85, 85, 1);
+}
