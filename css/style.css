@@ -5,7 +5,8 @@
 
 .main h1,
 .main h2,
-.main h3 {
+.main h3,
+.main h4 {
 	margin: 0;
 	font-weight: 400;
 }
@@ -229,9 +230,13 @@
 	letter-spacing: 0.36px;
 }
 
+.services-item__description {
+	line-height: 30.6px;
+	;
+}
+
 .light-text {
 	font-size: 18px;
-	line-height: 30.6px;
 	color: rgba(85, 85, 85, 1);
 }
 
@@ -318,4 +323,109 @@
 	position: relative;
 	left: -35px;
 	top: 35px;
+}
+
+/* Цена */
+.price {
+	padding-top: 99px;
+	padding-bottom: 120px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.price__text {
+	display: block;
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+.price .price__title {
+	max-width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.price-top,
+.price-bottom {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.price__image {
+	box-shadow: 1px 0px 18px 0px rgba(0, 0, 0, 0.20);
+}
+
+.price-top .price__service {
+	padding-top: 61px;
+
+}
+
+.price__service-item {
+	width: 540px;
+	padding-bottom: 16px;
+	margin-bottom: 13px;
+	border-bottom: 1px solid rgba(19, 65, 52, 1);
+}
+
+.price__service-item:nth-child(4) {
+	margin-bottom: 22px;
+}
+
+.price__service-block {
+	margin-bottom: 3px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 3px solid rgba(20, 20, 20, 1);
+}
+
+.service__title {
+	font-family: Playfair Display;
+	font-size: 22px;
+	line-height: 26.4px;
+	letter-spacing: 0.26px;
+	text-transform: capitalize;
+	color: rgba(20, 20, 20, 1);
+}
+
+.service__from {
+	margin-right: 10px;
+	letter-spacing: normal;
+	line-height: 27px;
+}
+
+.price__price {
+	font-family: Playfair Display;
+	font-size: 21px;
+	line-height: 33px;
+	color: rgba(20, 20, 20, 1);
+}
+
+.price-bottom .price__service {
+	padding-top: 140px;
+}
+
+.price__service-transfer {
+	max-width: 450px;
+}
+
+.price__service-description {
+	font-family: Manrope;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.36px;
+	color: rgba(85, 85, 85, 1);
+}
+
+.price__block--top {
+	position: absolute;
+	right: 510px;
+	bottom: 0px;
+}
+
+.price__block--bottom {
+	position: absolute;
+	top: 0px;
+	right: 600px;
 }
