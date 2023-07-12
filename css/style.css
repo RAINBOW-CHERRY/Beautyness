@@ -369,7 +369,7 @@
 	border-bottom: 1px solid rgba(19, 65, 52, 1);
 }
 
-.price__service-item--bottom{
+.price__service-item--bottom {
 	margin-bottom: 22px;
 }
 
@@ -428,4 +428,96 @@
 	position: absolute;
 	top: 0px;
 	right: 600px;
+}
+
+/* Клиент */
+.customer {
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: rgba(235, 243, 245, 1);
+}
+
+.customer__text {
+	margin-bottom: 4px;
+	display: block;
+	text-align: center;
+}
+
+.customer .customer__title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.customer-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.customer-wrapper__item--wide {
+	width: 600px;
+}
+
+.customer-wrapper__item--narrow {
+	width: 576px;
+}
+
+.item__block-top {
+	padding-top: 33px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.item__text {
+	font-size: 19px;
+	line-height: 32.3px;
+	color: rgba(20, 20, 20, 1);
+}
+
+.item__text--left {
+	max-width: 523px;
+}
+
+.item__text--right {
+	max-width: 475px;
+}
+
+.item__block-bottom{
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 30px;
+	background-color: rgba(30, 44, 48, 1);
+}
+
+.item__info{
+	display: flex;
+	align-items: center;
+}
+
+.item__info .item__image{
+	margin-right: 20px;
+	border: 2px solid #FFF;
+}
+
+.iten__stars{
+	margin-bottom: 3px;
+}
+
+.item__name{
+	display: block;
+	margin-bottom: 7px;
+	font-family: Playfair Display;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.24px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.item__place{
+	display: block;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0.42px;
+	color: rgba(255, 255, 255, 1);
 }
