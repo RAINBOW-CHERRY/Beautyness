@@ -7,6 +7,7 @@
 .main h2,
 .main h3 {
 	margin: 0;
+	font-weight: 400;
 }
 
 .main p {
@@ -141,8 +142,7 @@
 	margin-right: 6px;
 }
 
-.greetings__text {
-	margin-bottom: 5px;
+.little-text {
 	font-size: 15px;
 	line-height: 22px;
 	letter-spacing: 1.5px;
@@ -150,6 +150,9 @@
 	color: rgba(92, 134, 146, 1);
 }
 
+.greetings__text {
+	margin-bottom: 5px;
+}
 
 .welcome .welcome__title {
 	margin-bottom: 16px;
@@ -169,7 +172,7 @@
 	color: rgba(85, 85, 85, 1);
 }
 
-.wrapper-image {
+.welcome__wrapper-image {
 	box-sizing: border-box;
 	position: relative;
 	width: 592px;
@@ -203,13 +206,16 @@
 	display: flex;
 	justify-content: space-between;
 }
-.item{
+
+.item {
 	width: 380px;
 }
-.services-item__img{
+
+.services-item__img {
 	margin-bottom: 16px;
 }
-.item .services-item__title{
+
+.item .services-item__title {
 	margin-bottom: 13px;
 	font-family: Playfair Display;
 	font-size: 26px;
@@ -217,15 +223,99 @@
 	letter-spacing: 0.3px;
 	color: rgba(20, 20, 20, 1);
 }
-.item .services-item__description{
+
+.item .services-item__description {
 	margin-bottom: 17px;
+	letter-spacing: 0.36px;
+}
+
+.light-text {
 	font-size: 18px;
 	line-height: 30.6px;
-	letter-spacing: 0.36px;
 	color: rgba(85, 85, 85, 1);
 }
-.btn__light{
+
+.btn__light {
 	border-color: rgba(92, 134, 146, 1);
 	color: rgba(20, 20, 20, 1);
 }
 
+/* Опрятность */
+.cleanliness {
+	padding-top: 140px;
+	padding-bottom: 120px;
+	background-color: rgba(235, 243, 245, 1);
+}
+
+.cleanliness__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cleanliness__text {
+	margin-bottom: 4px;
+}
+
+.title {
+	font-family: Playfair Display;
+	font-size: 45px;
+	line-height: 58.5px;
+	letter-spacing: 0.45px;
+	color: rgba(20, 20, 20, 1);
+}
+
+.cleanliness .cleanliness__title {
+	max-width: 520px;
+	margin-bottom: 14px;
+}
+
+.cleanliness .cleanliness__description {
+	max-width: 600px;
+	margin-bottom: 60px;
+}
+
+.advantage {
+	display: flex;
+}
+
+.advantage__item {
+	box-sizing: border-box;
+	padding: 22px 0;
+	margin-right: 12px;
+	width: 186px;
+	background-color: #fff;
+	border: 2px solid rgba(30, 44, 48, 1);
+}
+
+.advantage__item:last-child {
+	margin-right: 0;
+}
+
+.advantage__image {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 12px;
+}
+
+.advantage__title-part {
+	display: block;
+	font-family: Playfair Display;
+	font-size: 22px;
+	line-height: 26.4px;
+	letter-spacing: 0.26px;
+	color: rgba(20, 20, 20, 1);
+	text-align: center;
+}
+
+.cleanliness__wrapper-image {
+	width: 500px;
+	height: 576px;
+	background-image: url(../img/background-woman.jpg);
+}
+
+.cleanliness-right__img {
+	position: relative;
+	left: -35px;
+	top: 35px;
+}
