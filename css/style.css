@@ -805,3 +805,35 @@ input:focus {
 .content__button{
 	text-align: center;
 }
+
+/* Подвал */
+.footer{
+	padding-top: 70px;
+	background-color: rgba(30, 44, 48, 1);
+}
+
+.footer-top{
+	padding-bottom: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.social{
+	display: flex;
+}
+.social__link{
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	width: 55px;
+	height: 55px;
+	border: 2px solid #5C8692;
+}
+.social__link:last-child{
+	margin-right: 0;
+}
+.social__img{
+	margin: auto;
+}
